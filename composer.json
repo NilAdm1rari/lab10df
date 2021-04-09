@@ -1,0 +1,27 @@
+{
+    "name": "niladmi/lab10df",
+    "description": "max",
+    "type": "library",
+    "license": "-",
+    "authors": [
+        {
+            "name": "NilAdm1rari",
+            "email": "morroz.max@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+	"autoload":{
+		"max//": "max"
+	},
+    "require": {
+		"rok9ru/trpo-core": "2.0"
+	},
+	"repositories": [
+		{	
+			"type": "git",
+			"url": "https://github.com/rok9ru/trpo-core"
+		}
+	]
+
+}
+
