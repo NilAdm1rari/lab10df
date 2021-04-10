@@ -11,7 +11,9 @@
     ],
     "minimum-stability": "dev",
 	"autoload":{
-		"max\\": "max"
+		"psr-4":{
+			"max\\": "max"
+		}
 	},
     "require": {
 		"rok9ru/trpo-core": "2.0"
